@@ -1,6 +1,0 @@
-Aquest és un arxiu de text amb caràcters especials:
-
-ÁÉÍÓÚÑáéíóúñ
-
-En UTF-8 es veurà correctament, però en ISO-8859-1 apareixeran caràcters estranys.
-
