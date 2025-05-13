@@ -1,0 +1,141 @@
+/* Estilos para el cuerpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente moderna y profesional */
+    background-color: #2C3E50; /* Fondo azul oscuro */
+    color: #ECF0F1; /* Texto blanco suave */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el título */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #3498db; /* Azul brillante para el título */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra de texto sutil */
+}
+
+/* Estilos para la tabla */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid #2980b9; /* Bordes azul más oscuro */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Estilos para las celdas de la tabla */
+td {
+    text-align: center;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #3498db; /* Enlaces azul brillante */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1abc9c; /* Azul claro con un toque verde al pasar el mouse */
+    text-decoration: underline;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(44, 62, 80, 0.8); /* Fondo semitransparente azul oscuro */
+    color: #ecf0f1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 1rem;
+}
+
+/* Estilos para la sección de imágenes */
+.image-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Estilos para las imágenes */
+.image-container {
+    display: inline-block;
+    margin: 15px;
+    border-radius: 50%;
+    border: 5px solid #2980b9; /* Borde azul más oscuro */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+.image-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Estilos para la zona de carga */
+.drop-zone {
+    width: 80%;
+    height: 200px;
+    border: 4px dashed #2980b9; /* Borde azul oscuro */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #ecf0f1;
+    cursor: pointer;
+    margin: 30px auto;
+    background-color: #34495e; /* Fondo azul grisáceo */
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos cuando se está arrastrando sobre la zona de carga */
+.drop-zone.dragging {
+    background-color: rgba(52, 152, 219, 0.2); /* Fondo azul translúcido cuando se arrastra */
+    color: #1abc9c; /* Texto azul claro */
+}
+
+/* Estilo de la galería */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+/* Estilo para las imágenes subidas */
+.uploaded-image-container {
+    margin: 15px;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil alrededor de la imagen */
+    max-width: 180px; /* Limita el tamaño máximo de cada contenedor de imagen */
+}
+
+.uploaded-image {
+    width: 100%; /* Las imágenes se ajustan al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.uploaded-image:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón sobre la imagen */
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estil.css">
+    <title>Lucha de la fuerza</title>
+</head>
+<body>
+    <center><h1 id="titulo">LUCHA ENTRE SONNY ANGELS</h1></center>
+    <div id="elegir" class="personaje-container">
+        <table>
+            <tr>
+                <td class="personaje" id="zanahoria">
+                    <center><img src="./img/sonny1.png" width="300px" height="420px"></center>
+                    <center><p>Nombre: zanahoria <br>Especie: Hortaliza <br>Vida: 100 <br>Ataque: 40 <br>Curación: 10 <br>Especialidad: Causa daño de perforación +10 de ataque</p></center>
+                    <button onclick="seleccionarPersonaje('zanahoria')" id="seleccionarf">Zanahoria</button>
+                    <div id="accionesfh" style="display: none; text-align: center;">
+                        <button onclick="atacarh()">Atacar</button>
+                        <button onclick="curarseh()">Curarse</button>
+                    </div>
+                    <div id="accionesfo" style="display: none; text-align: center;">
+                        <button onclick="atacaro()">Atacar</button>
+                        <button onclick="curarseo()">Curarse</button>
+                    </div>
+                </td>
+                <td class="personaje" id="pikachu">
+                    <center><img src="./img/sonny2.1.png" width="300px" height="420px"></center>
+                    <center><p>Nombre: pikachu <br>Especie: Raro <br>Vida: 100 <br>Ataque: 20 <br>Curación: 15 <br>Especialidad: Rayos +10 de ataque</p></center>
+                    <button onclick="seleccionarPersonaje('pikachu')" id="seleccionargh">Pikachu</button>
+                    <div id="accionesghh" style="display: none; text-align: center;">
+                        <button onclick="atacarh()">Atacar</button>
+                        <button onclick="curarseh()">Curarse</button>
+                    </div>
+                    <div id="accionesgho" style="display: none; text-align: center;">
+                        <button onclick="atacaro()">Atacar</button>
+                        <button onclick="curarseo()">Curarse</button>
+                    </div>
+                </td>
+                <td class="personaje" id="navidad">
+                    <center><img src="./img/sonny3.1.png" width="300px" height="420px"></center>
+                    <center><p>Nombre: XMas Kid <br>Especie: Navidad <br>Vida: 100 <br>Ataque: 30 <br>Curación: 20 <br>Especialidad: Tira bolas de nieve +10 de curación</p></center>
+                    <button onclick="seleccionarPersonaje('navidad')" id="seleccionarg">Navidad</button>
+                    <div id="accionesgh" style="display: none; text-align: center;">
+                        <button onclick="atacarh()">Atacar</button>
+                        <button onclick="curarseh()">Curarse</button>
+                    </div>
+                    <div id="accionesgo" style="display: none; text-align: center;">
+                        <button onclick="atacaro()">Atacar</button>
+                        <button onclick="curarseo()">Curarse</button>
+                    </div>
+                </td>
+                <td class="personaje" id="Luigi">
+                    <center><img src="./img/sonny4.1.png" width="300px" height="420px"></center>
+                    <center><p>Nombre: Luigi <br>Especie: Mario's House <br>Vida: 100 <br>Ataque: 25 <br>Curación: 40 <br>Especialidad: Ocultarse  +10 de curación</p></center>
+                    <button onclick="seleccionarPersonaje('Luigi')" id="seleccionarm">Luigi</button>
+                    <div id="accionesmh" style="display: none; text-align: center;">
+                        <button onclick="atacarh()">Atacar</button>
+                        <button onclick="curarseh()">Curarse</button>
+                    </div>
+                    <div id="accionesmo" style="display: none; text-align: center;">
+                        <button onclick="atacaro()">Atacar</button>
+                        <button onclick="curarseo()">Curarse</button>
+                    </div>
+                </td>
+                
+                <td class="personaje" id="spiderwoman">
+                    <center><img src="./img/sonny5.1.png" width="300px" height="420px"></center>
+                    <center><p>Nombre: spiderwoman <br>Especie: Marvel <br>Vida: 100 <br>Ataque: 19 <br>Curación: 30 <br>Especialidad: Tira telas de araña +10 de ataque</p></center>
+                    <button onclick="seleccionarPersonaje('spiderwoman')" id="seleccionarp">Spiderwoman</button>
+                    <div id="accionesph" style="display: none; text-align: center;">
+                        <button onclick="atacarh()">Atacar</button>
+                        <button onclick="curarseh()">Curarse</button>
+                    </div>
+                    <div id="accionespo" style="display: none; text-align: center;">
+                        <button onclick="atacaro()">Atacar</button>
+                        <button onclick="curarseo()">Curarse</button>
+                    </div>
+                </td>
+                <td class="personaje" id="leon">
+                    <center><img src="./img/sonny6.1.png" width="300px" height="420px"></center>
+                    <center><p>Nombre: leon <br>Especie: Mamifero <br>Vida: 100 <br>Ataque: 28 <br>Curación: 20 <br>Especialidad: Aumenta la fuerza tras ser atacado +15 de ataque</p></center>
+                    <button onclick="seleccionarPersonaje('leon')" id="seleccionarv">Leon</button>
+                    <div id="accionesvh" style="display: none; text-align: center;">
+                        <button onclick="atacarh()">Atacar</button>
+                        <button onclick="curarseh()">Curarse</button>
+                    </div>
+                    <div id="accionesvo" style="display: none; text-align: center;">
+                        <button onclick="atacaro()">Atacar</button>
+                        <button onclick="curarseo()">Curarse</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="pelea" style="display: none;">
+        <img id="pista" src="./img/pista.jpg">
+        
+    </div>
+    <div id="heroe" style="position: absolute; top: 18%; left: 300px; display: none;"></div>
+    <div id="oponente" style="position: absolute; top: 18%; left: 900px; display: none;"></div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

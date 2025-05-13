@@ -1,0 +1,111 @@
+
+
+body {
+	font-family: 'Orbitron', Arial, sans-serif; /* Fuente futurista */
+	background: linear-gradient(135deg, #0b0e17, #111d3d); /* Fondo tipo espacio */
+	color: #ffffff;
+	text-align: center;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  /* Títulos */
+  h4#obj {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+	color: #00ffea;
+	text-shadow: 0 0 10px #00ffea, 0 0 20px #00d1b6;
+  }
+  
+  h2 {
+	font-size: 2rem;
+	color: #f39c12;
+	text-shadow: 0 0 10px #f39c12, 0 0 20px #e67e22;
+  }
+  
+  h1.results {
+	font-size: 3rem;
+	color: #ff4757;
+	text-shadow: 0 0 10px #ff4757, 0 0 20px #e84118;
+	margin-bottom: 20px;
+  }
+  
+body {
+	font-family: 'Orbitron', Arial, sans-serif; /* Fuente futurista */
+	
+	color: #ffffff;
+	text-align: center;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+button {
+	background-color: #0d47a1; /* Color de fondo oscuro similar al azul neón */
+	color: #ffffff;
+	border: none;
+	padding: 10px 20px;
+	margin: 30px 20px;
+	font-size: 1rem;
+	cursor: pointer;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	box-shadow: 0 0 10px #0d47a1, 0 0 20px #0d47a1, 0 0 30px #0d47a1; /* Sombra inicial neón */
+	transition: all 0.3s ease-in-out;
+	outline: none; /* Elimina el borde por defecto */
+}
+  
+button:hover {
+	background-color: #0d47a1;
+	box-shadow: 0 0 15px #1e88e5, 0 0 30px #1e88e5, 0 0 45px #1e88e5; /* Brillo más fuerte al pasar el cursor */
+	transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+}
+  
+button:active {
+	background-color: #1565c0;
+	box-shadow: 0 0 20px #64b5f6, 0 0 40px #64b5f6, 0 0 60px #64b5f6; /* Brillo más fuerte al hacer clic */
+	transform: scale(1.05); /* Ligeramente más pequeño para el efecto de presión */
+}
+  
+.grid {
+	width: 300px;
+	height: 300px;
+	border: solid black 1px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.invader {
+	background-color: rgb(190, 101, 6);
+	border-radius: 10px;
+}
+
+.shooter {
+	background-color: rgb(97, 222, 163);
+}
+
+.laser {
+	background-color: rgb(192, 63, 196);
+}
+
+.laser2 {
+	background-color: rgb(5, 35, 207);
+}
+
+.boom {
+	background-color: rgb(255, 0, 0);
+}

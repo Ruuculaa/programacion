@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="../../../favicon.png">
+   <link rel="stylesheet" href="./estil.css">
+   <title>Exercici 2.</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+
+<body>
+   <div>
+       <h1>Exercici 2. Mètodes d'ordenació de taules i llistes. </h1>
+   </div>
+  
+   <div id="p1" style="display: block;">
+       <form>
+           <fieldset>
+               <input type="button" id="quickSortBtn" value="Quick Sort">
+               <input type="button" id="selectionSortBtn" value="Selection Sort">
+               <input type="button" id="insertSortBtn" value="Insert Sort">
+               <input type="button" id="bubbleSortBtn" value="Bubble Sort">
+               <input type="button" id="mixBtn" value="Mix it">
+           </fieldset>
+       </form>
+   </div>
+       <div id="times">
+           <p id="temps"></p> <!--AÑADIDO-->
+       </div>
+
+
+       <div>
+           <table class="styled-table">
+               <thead>
+                   <tr>
+                       <th>Id</th>
+                       <th>Nom</th>
+                       <th>Foto</th>
+                       <th>Força</th>   
+                   </tr>
+               </thead>
+               <tbody id="taula"></tbody>
+           </table>
+       </div>
+   <script type="module" src="./UIHandlers.js"></script>
+</body>
+</html>

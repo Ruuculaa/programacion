@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aules>
+  <aula>
+    <numAula>101</numAula>
+    <capacitat>30</capacitat>
+  </aula>
+  <aula>
+    <numAula>102</numAula>
+    <capacitat>25</capacitat>
+  </aula>
+  <aula>
+    <numAula>103</numAula>
+    <capacitat>40</capacitat>
+  </aula>
+  <aula>
+    <numAula>104</numAula>
+    <capacitat>35</capacitat>
+  </aula>
+  <aula>
+    <numAula>105</numAula>
+    <capacitat>45</capacitat>
+  </aula>
+  <aula>
+    <numAula>106</numAula>
+    <capacitat>20</capacitat>
+  </aula>
+  <aula>
+    <numAula>107</numAula>
+    <capacitat>50</capacitat>
+  </aula>
+  <aula>
+    <numAula>108</numAula>
+    <capacitat>30</capacitat>
+  </aula>
+  <aula>
+    <numAula>109</numAula>
+    <capacitat>25</capacitat>
+  </aula>
+  <aula>
+    <numAula>110</numAula>
+    <capacitat>40</capacitat>
+  </aula>
+</aules>
+

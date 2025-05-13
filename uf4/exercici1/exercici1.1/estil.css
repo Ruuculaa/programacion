@@ -1,0 +1,166 @@
+/* Reset general y ajustes de la página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #606ebb; /* Fondo oscuro */
+    color: #000000; /* Texto claro para contraste */
+    line-height: 1.6;
+}
+
+/* Estilo para el título principal */
+#titulo {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #1d203f; /* Color dorado brillante */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+/* Estilo para la tabla de personajes */
+.personaje-container {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    margin: 20px;
+}
+
+.personaje {
+    background-color: #81abeb; /* Fondo gris oscuro */
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.personaje img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.personaje p {
+    margin: 15px 0;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #e67e22; /* Cambia a un tono más oscuro al pasar el ratón */
+    transform: scale(1.05); /* Aumenta el tamaño ligeramente */
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Efecto de hover en los personajes */
+.personaje:hover {
+    transform: scale(1.05); /* Aumenta de tamaño */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); /* Aumenta la sombra */
+}
+
+/* Sección de acciones ocultas */
+div[id^="acciones"] {
+    margin-top: 20px;
+}
+
+/* Estilo para la pelea y la pista */
+#pelea {
+    display: none;
+    position: relative;
+}
+
+#pista {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(3px); /* Fondo desenfocado */
+}
+
+#heroe, #oponente {
+    position: absolute;
+    top: 18%;
+    display: none;
+}
+
+#heroe {
+    left: 300px;
+}
+
+#oponente {
+    left: 900px;
+}
+
+/* Estilo para los botones de acción dentro de la pelea */
+button {
+    padding: 12px 24px;
+    background-color: #08082f; /* Color más vibrante para los botones de acción */
+    border-radius: 10px;
+    font-size: 1.1rem;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #16a085; /* Cambio de color al pasar el ratón */
+    transform: scale(1.1); /* Escalado para mayor interacción */
+}
+
+/* Animaciones de aparición de personajes */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Animación de personajes */
+.personaje {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    .personaje-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .personaje {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    #titulo {
+        font-size: 2.5rem;
+    }
+}

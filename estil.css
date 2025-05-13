@@ -1,0 +1,45 @@
+/* Reset de estilos para garantizar la consistencia en diferentes navegadores */
+body, h1, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1d4f91; /* Azul fuerte */
+    color: #fff;
+}
+
+ol {
+    list-style: none;
+    padding: 20px;
+    text-align: center; /* Centra los enlaces horizontalmente */
+}
+
+li {
+    display: inline-block; /* Hace que los elementos de lista estén uno al lado del otro */
+    margin-right: 15px; /* Espaciado entre los enlaces */
+}
+
+li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último enlace */
+}
+
+a {
+    text-decoration: none;
+    color: #1d4f91; /* Azul fuerte */
+    font-weight: bold;
+    font-size: 30px;
+}
+
+a:hover {
+    color: #153965; /* Azul más oscuro al pasar el mouse */
+}

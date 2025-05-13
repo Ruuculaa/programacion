@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horaris>
+  <horari id="1">
+    <diaSetmana>
+      <dia>Dilluns</dia>
+      <horaInici>09:00</horaInici>
+      <horaFi>11:00</horaFi>
+    </diaSetmana>
+    <diaSetmana>
+      <dia>Dimarts</dia>
+      <horaInici>14:00</horaInici>
+      <horaFi>16:00</horaFi>
+    </diaSetmana>
+    <diaSetmana>
+      <dia>Dimecres</dia>
+      <horaInici>10:00</horaInici>
+      <horaFi>12:00</horaFi>
+    </diaSetmana>
+    <diaSetmana>
+      <dia>Dijous</dia>
+      <horaInici>15:00</horaInici>
+      <horaFi>17:00</horaFi>
+    </diaSetmana>
+    <diaSetmana>
+      <dia>Divendres</dia>
+      <horaInici>11:00</horaInici>
+      <horaFi>13:00</horaFi>
+    </diaSetmana>
+  </horari>
+  <horari id="2">
+    <diaSetmana>
+      <dia>Dilluns</dia>
+      <horaInici>12:00</horaInici>
+      <horaFi>14:00</horaFi>
+    </diaSetmana>
+    <diaSetmana>
+      <dia>Dimarts</dia>
+      <horaInici>10:00</horaInici>
+      <horaFi>12:00</horaFi>
+    </diaSetmana>
+    <diaSetmana>
+      <dia>Dimecres</dia>
+      <horaInici>14:00</horaInici>
+      <horaFi>16:00</horaFi>
+    </diaSetmana>
+    <diaSetmana>
+      <dia>Dijous</dia>
+      <horaInici>09:00</horaInici>
+      <horaFi>11:00</horaFi>
+    </diaSetmana>
+    <diaSetmana>
+      <dia>Divendres</dia>
+      <horaInici>13:00</horaInici>
+      <horaFi>15:00</horaFi>
+    </diaSetmana>
+  </horari>
+</horaris>
+

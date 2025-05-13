@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualitzador de fitxers de text</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Escull un arxiu</h1>
+    <input type="file" id="file-input">
+    <br>
+    <label for="enconding-select">Codificació:</label>
+    <select id="enconding-select">
+        <option value="utf-8">UTF-8</option>
+        <option value="iso-8859-1">ISO-8859-1</option>
+    </select>
+    <br>
+    <textarea id="text-area" cols="80" rows="30"></textarea>
+    <script src="loadfile.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estadísticas del equipo de fútbol</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    #stats {
+      margin-top: 20px;
+    }
+    #stats table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    #stats table th, #stats table td {
+      padding: 8px;
+      border: 1px solid #ddd;
+    }
+    #stats table th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Estadísticas del equipo de balonmano</h1>
+  <div id="stats">
+    <h2>Estadísticas del equipo</h2>
+    <table>
+      <thead>
+        <tr>
+          <center><th>Jugador</th>
+          <th>Edad</th>
+          <th>Posición</th>
+          <th>Goles </th>
+          <th>Partits</th></center>
+        </tr>
+      </thead>
+      <tbody id="statsBody">
+        <!-- Aquí se llenará con información dinámica desde JavaScript -->
+      </tbody>
+    </table>
+    <div id="promedio"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
